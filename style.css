@@ -4,7 +4,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Impact, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 
@@ -13,5 +13,25 @@ color: blue;
 }
 
 body {
-    background-color: beige;
+    background-color: transparent;
+}
+
+li {
+    border: 2px solid blue;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(172, 213, 213);
+    border-radius: 8px;
+    padding: 10px;
+}
+li img {
+    width: auto;
+    height: 250px;
+    max-width: 450px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    color: rgba(red, green, blue, alpha)
 }
