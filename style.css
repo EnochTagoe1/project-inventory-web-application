@@ -14,6 +14,11 @@ color: blue;
 
 body {
     background-color: transparent;
+    border: 20px;
+    border-color: cornflowerblue;
+    padding-block: 5px;
+    margin: auto;
+    
 }
 
 li {
@@ -31,7 +36,30 @@ li img {
 }
 h1 {
     text-align: center;
+    /* border: 2px solid blue; */
 }
 h2 {
     color: rgba(red, green, blue, alpha)
+}
+.form {
+    /* display: grid; */
+    border: 2px solid blue;
+    width: 500px;
+    padding: 8px;
+}
+.form label {
+    display: block;
+    margin-right: 4px;
+    margin-bottom: 6px;
+
+}
+form button[type="submit"]
+button{
+    background: wheat;
+    border-radius: 4px;
+    color: goldenrod;
+    cursor: pointer;
+    margin: 10;
+    padding: 10px;
+    
 }
