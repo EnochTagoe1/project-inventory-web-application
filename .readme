@@ -1,2 +1,10 @@
+A  repository has been created  the application and has been deployed on Github at this link: https://github.com/EnochTagoe1/project-inventory-web-application
+
 The purpose of this project is to create an invfentory app for a musical equipment company.
 It will use CRUD functions to add and remove items from the inventory.
+
+This project is a MVP to set up a website for an inventory web application.
+
+It allows the user to add inventory items by completing a set of required fields. And to remove an item by clicking on a "Remove Instrument" button.
+
+The assets for the project include a pictures of the musical instruments. And where a photo is not loaded, a generic G-clef image is displayed.
