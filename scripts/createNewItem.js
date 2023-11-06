@@ -29,7 +29,7 @@ function createNewItem(name, price, stock, brand, color) {
 
 
     if (name && price && stock && brand && color) {
-        li.innerHTML = ` <img src="https://media.istockphoto.com/id/905799290/photo/plan.jpg?s=612x612&w=is&k=20&c=0ahrWa3K53x41E_P7f7_2yH9QnGD-8APHNSoghgJx9U=" alt="grand piano">
+        li.innerHTML = ` <img src="https://img.freepik.com/free-vector/musical-melody-symbols-yellow-splotch_1308-64213.jpg?w=2000&t=st=1699237678~exp=1699238278~hmac=5c6b4297a05aa790ee6906019371034ccbc0036c4477cbcfb852eb560aef1167" alt="Image">
                     <p><strong>Name:</strong> ${name}</p>
                     <p><strong>Price:</strong> ${price}</p>
                     <p><strong>In Stock:</strong> ${stock}</p>

@@ -12,7 +12,7 @@ h6 {
 
 
 p {
-color: blue;
+color: black;
 }
 
 body {
@@ -26,8 +26,7 @@ body {
 
 li {
     border: 2px solid blue;
-    width: 500px;
-    height: 500px;
+    
     background-color: rgb(172, 213, 213);
     border-radius: 8px;
     padding: 10px;
@@ -37,17 +36,24 @@ li img {
     height: 250px;
     max-width: 450px;
 }
+ul {
+    list-style: none;
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 h1 {
     text-align: center;
-    /* border: 2px solid blue; */
+    
 }
 h2 {
-    color: rgba(red, green, blue, alpha)
+    color: rgba(red, green, blue, alpha);
+    margin-left: 10px;
 }
 .form {
     /* display: grid; */
     border: 2px solid blue;
-    width: 500px;
+    width: 100%;
     padding: 8px;
 }
 .form label {
@@ -64,8 +70,16 @@ button{
     cursor: pointer;
     margin: 10;
     padding: 10px;
+}
+
+.main-box {
+    display: grid;
+    grid-template-columns: 1fr;
     
 }
+    
+
+
 @media(min-width: 600px) {
      li {background-color: wheat;
 }
